@@ -1,0 +1,30 @@
+{% load static %}
+<link rel="stylesheet" href="static/css/style.css">
+<h1>CRUD Blog Project &#128236  </h1>
+<br />
+<div id="home_new">
+<a href="{% url 'new' %}"><font size=4px;> 새 글 작성하기 </a></font>
+<img
+  src="{% static 'grapefruit.png' %}"
+  width="70"
+  height="70"
+/>
+</div>
+{% for blog in blogs %} 
+<div id='home_list', >
+  <a href="{%url 'detail' blog.id %}">
+  <font size=5px;>
+  <h5>{{blog.title}}</h5> 
+  </font>
+  {{blog.created_at}}
+  <p>{{blog.summary}}</p>
+  </font>
+</div>
+<br />
+{% endfor %}
+
+
+<style>
+  a:link, a:visited {color: rgb(61, 54, 49);}
+  a:hover{color: rgb(230, 192, 95);}
+</style>

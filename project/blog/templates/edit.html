@@ -1,0 +1,60 @@
+{% load static %}
+<link rel="stylesheet" href="{% static "css/style.css" %}">
+<h1>글 수정하기</h1>
+<form action="{% url 'update' blog.id %}" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div id='title'>
+    제목: <input type="text" name="title" value="{{blog.title}}" />
+  </div>
+  <div id='content'>
+    내용: <textarea name="contents" 
+                    id="" 
+                    cols="30" 
+                    rows="10">
+    {{blog.content}}      </textarea>
+  </div>
+  <br>
+  <p> 사진 </p>
+  <input type="file" name="image" />
+  <div id="submitButton">
+  <input type="submit" value="수정하기" />
+  </div>
+</form>
+
+<style> 
+  input[type=submit] { 
+    font-size : 20px;
+    width: 7%;
+    padding: 12px 20px; 
+    margin: 8px 0px; 
+    background-color: rgb(235, 228, 211);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid orange;
+  }
+
+  input[type=text] { 
+    font-size : 20px;
+    width: 20%;
+    padding: 12px 20px; 
+    margin: 10px 20px; 
+    display: inline-block; 
+    border: 1px solid white; 
+    border-radius: 7px; 
+    box-sizing: border-box; 
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  textarea {
+    font-size : 20px;
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 4px solid white;
+    resize: both;
+  }
