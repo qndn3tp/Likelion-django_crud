@@ -1,14 +1,14 @@
 # Likelion-django_crud
-장고 CRUD 실습
+## 장고 CRUD 실습!
 
-![home 스크린샷](https://user-images.githubusercontent.com/84118129/166187332-ff8fc6a9-8bb1-48a6-b1a9-ea2475e8bb76.png)
-기본 홈 화면
+### 기본 홈 화면
+[home 스크린샷](https://user-images.githubusercontent.com/84118129/190898774-e5acc491-d015-465e-ad3e-06627c377745.png)
 
-![detail 스크린샷](https://user-images.githubusercontent.com/84118129/166187337-a3d1b719-0efe-46c9-ba53-89b65a93e9b9.png)
-글 상세보기 화면
+### 글 상세보기 화면
+![detail 스크린샷](https://user-images.githubusercontent.com/84118129/190898809-22878872-ddcd-4602-b73c-f33152327fa2.png)
 
-![new 스크린샷](https://user-images.githubusercontent.com/84118129/166187343-275f9d4e-bef7-41f6-860a-ba72873382e6.png)
-새 글 작성하기 화면
+### 새 글 작성하기 화면
+![new 스크린샷](https://user-images.githubusercontent.com/84118129/190898813-0b711f3c-f1eb-4105-ac28-537188b5e6c0.png)
 
-![edit 스크린샷](https://user-images.githubusercontent.com/84118129/166187347-15c8101b-133e-46a4-a441-4a2fe2bc9feb.png)
-글 수정하기 화면
+### 글 수정하기 화면
+![edit 스크린샷](https://user-images.githubusercontent.com/84118129/190898815-001e3aba-585a-42f7-b3a2-6839b341d32e.png)
