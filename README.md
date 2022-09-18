@@ -2,7 +2,7 @@
 ## 장고 CRUD 실습!
 
 ### 기본 홈 화면
-[home 스크린샷](https://user-images.githubusercontent.com/84118129/190898774-e5acc491-d015-465e-ad3e-06627c377745.png)
+![home 스크린샷](https://user-images.githubusercontent.com/84118129/190898846-ee980dde-a8e5-4163-91b1-21bae8eee0a8.png)
 
 ### 글 상세보기 화면
 ![detail 스크린샷](https://user-images.githubusercontent.com/84118129/190898809-22878872-ddcd-4602-b73c-f33152327fa2.png)
